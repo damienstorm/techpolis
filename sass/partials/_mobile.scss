@@ -1,0 +1,210 @@
+@media only screen and (max-width: 1120px) {
+
+  .showOnDesktop { display: none !important; }
+
+  .showOnMobile { display: inherit; }
+
+  .x-navbar-inner {
+    display: none;
+  }
+
+  .searchSocial {
+    display:none;
+  }
+
+  #ubermenu-main-219-primary { display: none; }
+
+  #top .x-container.max {
+    margin-top:0;
+  }
+
+  // HOME PAGE
+  .home .tg-grid-area-top2 {
+    background-image: none;
+    padding-left: 0;
+    background-position-y: 0;
+  }
+
+  .ourServices span.greyBox {
+    float: none;
+  }
+
+  .ourServicesBox {
+    height: auto;
+    width: 100%;
+    background-image: inherit;
+    background-color: #e9f9fb;
+    padding: 5px 5px 5px 10px !important;
+    margin-bottom: 15px;
+
+    img {
+      float: left;
+      margin-bottom: -10px !important;
+      margin-top: 12px !important;
+      margin-left:0;
+    }
+
+    h5 {
+      font-size: 1.25em;
+      margin-left: 69px;
+    }
+
+    div.x-text {
+      margin: 0;
+    }
+
+    span.servicesText {
+      display: block;
+      margin-top: 24px;
+      clear:both;
+    }
+
+  }
+
+
+
+
+// ABOUT
+
+.rtavares,.mnewlands {
+  margin-right: 10px;
+}
+
+.ourTeamBox {
+  clear:both;
+}
+
+
+
+//CLIENTS
+
+.whatWeveDoneLeft,.whatWeveDoneRight,.whatWeveDoneLeftBottom, .whatWeveDoneRightBottom {
+  border: none;
+  margin-bottom: 20px !important;
+  background-color: #f4f4f4;
+}
+
+.whoWeWorkForLeft,.whoWeWorkForRight,.whoWeWorkForLeftBottom, .whoWeWorkForRightBottom {
+  border: none;
+  margin-bottom: 20px !important;
+  background-color: #f4f4f4;
+}
+
+.whatWeveDoneLeft,.whatWeveDoneLeftBottom, {
+  margin-right: 10px !important;
+}
+
+.whoWeWorkForLeft,.whoWeWorkForLeftBottom, {
+  margin-right: 10px !important;
+}
+
+.whatWeveDoneRight,.whatWeveDoneRightBottom,.whoWeWorkForRightBottom {
+  span {
+		margin-left: 0px;
+	}
+}
+
+.whoWeWorkForRight,.whoWeWorkForRightBottom,.whoWeWorkForRightBottom {
+  span {
+		margin-left: 0px;
+	}
+}
+
+// RESEARCH
+
+.researchDownloads {
+  li {
+    max-width: 300px;
+    float:none;
+  }
+}
+
+/*** BLOG ***/
+.search-results {
+
+  .x-header-landmark {
+    margin-bottom: 10px;
+  }
+
+  .has-post-thumbnail {
+
+	   .entry-featured {
+       border-bottom: 1px solid #ddd;
+       width: 100%;
+       float: none;
+		   margin-right: 0px;
+       margin-bottom: 15px;
+	      }
+
+	    .entry-content {
+		    margin-left: 0px;
+	      }
+  }
+}
+
+.blog {
+
+  .x-header-landmark {
+    margin-bottom: 10px;
+  }
+
+}
+
+.post {
+  .mobileLogo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+// SIDEBAR
+#techpolisSidebar {
+  padding:10px !important;
+}
+
+#ourServicesSidebar {
+    .textwidget div {
+      margin-left: 0px;
+      clear: both;
+    }
+}
+
+// FOOTER
+
+  .mobileFooter {
+    //background-image: url($url+"/wp-content/uploads/2014/03/innerpage_left_img.jpg");
+    background-color: $darkBlue;
+    width: 100%;
+    text-align: center;
+    padding:10px 15px;
+
+    p {
+      color: $green;
+      font-size: 1.6em;
+      margin-bottom: 0;
+      line-height: 100%;
+    }
+
+    form {
+      margin-top: 5px;
+    }
+
+    input {
+      border-radius: 0;
+    }
+
+    .p2 {
+      color: white;
+      display: block;
+      font-size: 1.3em;
+      margin-top: 5px;
+    }
+
+    input[type="submit"] {
+      top: -5px;
+      height: 34px;
+    }
+
+  }
+
+}

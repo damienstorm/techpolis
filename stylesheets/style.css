@@ -1,0 +1,825 @@
+/* line 1, ../sass/partials/_typography.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+
+/* line 6, ../sass/partials/_typography.scss */
+h1, h2, h3, h4, .h1, .h2, .h3, .h4, .h6 {
+  font-weight: lighter !important;
+}
+
+/* TOPBAR */
+/* line 3, ../sass/partials/_header.scss */
+.x-topbar {
+  height: 34px;
+}
+
+/* line 7, ../sass/partials/_header.scss */
+.topbarLeft {
+  height: 34px;
+  width: 36%;
+  background-color: #29c0dd;
+  float: left;
+}
+
+/* line 14, ../sass/partials/_header.scss */
+.topbarRight {
+  height: 34px;
+  width: 64%;
+  background-color: #2f89be;
+  float: right;
+}
+
+/* SEARCH BOX  */
+/* line 23, ../sass/partials/_header.scss */
+.searchSocial {
+  width: 335px;
+  overflow: hidden;
+  float: right;
+  padding: 3px;
+}
+
+/* line 30, ../sass/partials/_header.scss */
+.searchSocial img {
+  width: 9%;
+}
+
+/* line 34, ../sass/partials/_header.scss */
+.searchBox {
+  height: 40px;
+  float: left;
+}
+
+/* line 39, ../sass/partials/_header.scss */
+#searchform {
+  margin-right: 5px;
+}
+
+/* line 43, ../sass/partials/_header.scss */
+#searchform input[type="text"] {
+  height: 29px;
+}
+
+/* line 47, ../sass/partials/_header.scss */
+.x-navbar-inner div.x-container {
+  border-bottom: 1px solid #999999;
+  padding-bottom: 5px;
+}
+
+/* UBERMENU & HEADER	*/
+/* line 54, ../sass/partials/_header.scss */
+.x-brand {
+  display: none;
+}
+
+/* line 59, ../sass/partials/_header.scss */
+.ubermenu-item {
+  margin-bottom: -5px !important;
+}
+
+/* line 63, ../sass/partials/_header.scss */
+.x-navbar {
+  border: none;
+  box-shadow: none;
+}
+
+/* line 70, ../sass/partials/_header.scss */
+.ubermenu .ubermenu-item {
+  margin-right: 20px !important;
+}
+
+/* line 76, ../sass/partials/_header.scss */
+#menu-item-2245 {
+  /*border-bottom:1px solid #999;*/
+}
+
+/* line 80, ../sass/partials/_header.scss */
+#menu-item-2634 {
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;
+  /*border-bottom:1px solid #999;*/
+}
+
+/* line 86, ../sass/partials/_header.scss */
+#menu-item-2635 {
+  border-right: 1px solid #999999;
+  /*border-bottom:1px solid #999;*/
+}
+
+/* line 91, ../sass/partials/_header.scss */
+#menu-item-2636 {
+  border-right: 1px solid #999999;
+  /*border-bottom:1px solid #999;*/
+}
+
+/* line 96, ../sass/partials/_header.scss */
+#menu-item-2228 {
+  /* border-bottom:1px solid #999;*/
+}
+
+/* MOBILE CONTROLS */
+/* line 3, ../sass/partials/_pages.scss */
+.showOnDesktop {
+  display: inherit;
+}
+
+/* line 7, ../sass/partials/_pages.scss */
+.showOnMobile {
+  display: none;
+}
+
+/* BEGIN SITE CSS */
+/* line 12, ../sass/partials/_pages.scss */
+body {
+  background-color: white !important;
+}
+
+/* line 16, ../sass/partials/_pages.scss */
+*, a:focus {
+  text-shadow: none;
+  box-shadow: none;
+  outline: none !important;
+}
+
+/* line 22, ../sass/partials/_pages.scss */
+.entry-wrap {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 27, ../sass/partials/_pages.scss */
+.topQuote {
+  color: black;
+  line-height: 130%;
+}
+/* line 30, ../sass/partials/_pages.scss */
+.topQuote span {
+  color: #2f89be;
+}
+
+/** HOME PAGE **/
+/* line 38, ../sass/partials/_pages.scss */
+.home div.x-raw-content {
+  margin-top: -60px;
+}
+/* line 42, ../sass/partials/_pages.scss */
+.home #jig1-filterButtons {
+  background-image: url("https://techpolis.com/wp-content/uploads/2017/04/our-ideas-filters-background.png");
+  background-repeat: no-repeat;
+  padding-left: 123px;
+  background-position-y: -2px;
+}
+/* line 48, ../sass/partials/_pages.scss */
+.home #jig1-filterButtons .jig-filterButton {
+  margin-top: -1px;
+}
+/* line 52, ../sass/partials/_pages.scss */
+.home #jig1-filterButtons div[data-filter-slug="blog"], .home #jig1-filterButtons div[data-filter-slug="most-recent"] {
+  display: none;
+}
+
+/* line 60, ../sass/partials/_pages.scss */
+.pageHeader {
+  color: #2f89be !important;
+  font-size: 2.2em;
+  margin-top: 0;
+}
+
+/* line 66, ../sass/partials/_pages.scss */
+.ourIdeasColumn {
+  margin-top: -80px;
+}
+
+/* line 70, ../sass/partials/_pages.scss */
+.ourServices {
+  font-size: 1.2em;
+  color: black;
+}
+/* line 74, ../sass/partials/_pages.scss */
+.ourServices span.greyBox {
+  display: block;
+  float: left;
+  background-color: #999;
+  color: white;
+  padding: 8px 8px 8px 8px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+/* line 84, ../sass/partials/_pages.scss */
+.ourServices span.blueText {
+  color: #2f89be;
+}
+
+/* line 89, ../sass/partials/_pages.scss */
+.ourServicesBox {
+  background-image: url("https://techpolis.com/wp-content/uploads/2014/03/service_block_bg.gif");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 180px;
+}
+/* line 95, ../sass/partials/_pages.scss */
+.ourServicesBox img {
+  margin-left: 15px !important;
+  margin-top: 26px !important;
+}
+/* line 100, ../sass/partials/_pages.scss */
+.ourServicesBox div.x-text {
+  margin-left: 84px;
+  padding-right: 10px;
+  color: black;
+  line-height: 130%;
+}
+/* line 107, ../sass/partials/_pages.scss */
+.ourServicesBox h5 {
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  font-weight: bold !important;
+  letter-spacing: 0 !important;
+}
+
+/** GREEN BULLETS ON UL LIST**/
+/* line 118, ../sass/partials/_pages.scss */
+.whatWeDo li, .whereWeWork li {
+  list-style-type: none;
+  background-image: url("https://techpolis.com/wp-content/uploads/2014/03/bullet.gif");
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  background-position-y: 7px;
+}
+
+/*** CLIENTS ***/
+/* line 128, ../sass/partials/_pages.scss */
+.whatWeveDoneLeft, .whoWeWorkForLeft {
+  display: inline-block !important;
+  height: 110px !important;
+  border-right: 1px solid #85c348;
+  border-bottom: 1px solid #85c348;
+  margin-right: 0px !important;
+  margin-top: 0 !important;
+  padding: 10px 10px 0 10px !important;
+}
+
+/* line 142, ../sass/partials/_pages.scss */
+.whatWeveDoneGray, .whoWeWorkForGray {
+  background-color: #f4f4f4;
+}
+
+/* line 150, ../sass/partials/_pages.scss */
+.greenBullet {
+  position: relative;
+  top: -17px;
+  left: -13px;
+}
+
+/* line 156, ../sass/partials/_pages.scss */
+.whatWeveDoneLeftBottom, .whoWeWorkForLeftBottom {
+  display: inline-block !important;
+  height: 120px !important;
+  border-right: 1px solid #85c348;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  padding: 10px 10px 0 10px !important;
+}
+
+/* line 169, ../sass/partials/_pages.scss */
+.whatWeveDoneRight, .whoWeWorkForRight {
+  display: inline-block !important;
+  height: 110px !important;
+  border-bottom: 1px solid #85c348;
+  margin-top: 0 !important;
+  padding: 10px 10px 0 10px !important;
+}
+/* line 176, ../sass/partials/_pages.scss */
+.whatWeveDoneRight span, .whoWeWorkForRight span {
+  display: block;
+  margin-left: 18px;
+}
+
+/* line 186, ../sass/partials/_pages.scss */
+.whatWeveDoneRightBottom, .whoWeWorkForRightBottom {
+  display: inline-block !important;
+  height: 120px !important;
+  margin-top: 0 !important;
+  padding: 10px 10px 0 10px !important;
+}
+/* line 192, ../sass/partials/_pages.scss */
+.whatWeveDoneRightBottom span, .whoWeWorkForRightBottom span {
+  display: block;
+  margin-left: 18px;
+}
+
+/*** ABOUT ***/
+/* line 206, ../sass/partials/_pages.scss */
+.aboutUsRow #ourTeam {
+  color: #2f89be;
+}
+/* line 210, ../sass/partials/_pages.scss */
+.aboutUsRow #ourAdvisors {
+  color: #2f89be;
+}
+/* line 214, ../sass/partials/_pages.scss */
+.aboutUsRow .name {
+  color: #2f89be;
+  font-size: 1.4em;
+}
+/* line 219, ../sass/partials/_pages.scss */
+.aboutUsRow .nameTeam {
+  float: left;
+}
+/* line 225, ../sass/partials/_pages.scss */
+.aboutUsRow .pum-trigger img.x-img {
+  margin-top: 7px !important;
+  margin-right: 5px !important;
+}
+/* line 232, ../sass/partials/_pages.scss */
+.aboutUsRow .teamPic, .aboutUsRow .advPic {
+  margin-right: 10px !important;
+}
+
+/** RESEARCH **/
+/* line 240, ../sass/partials/_pages.scss */
+.researchDownloads {
+  margin-left: 0;
+}
+/* line 243, ../sass/partials/_pages.scss */
+.researchDownloads li {
+  float: right;
+  width: 265px;
+  margin-right: 20px;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* line 253, ../sass/partials/_pages.scss */
+.researchDownloads li a {
+  margin-bottom: 5px !important;
+}
+
+/*** SERVICES ***/
+/* line 265, ../sass/partials/_pages.scss */
+.whatWeDoBox li {
+  border: 2px solid #f6f6f6;
+  padding: 2px !important;
+  height: 240px !important;
+  text-align: center;
+}
+/* line 272, ../sass/partials/_pages.scss */
+.whatWeDoBox .h5 {
+  font-size: 1em;
+  letter-spacing: 1px !important;
+  margin-top: 0;
+}
+/* line 278, ../sass/partials/_pages.scss */
+.whatWeDoBox div {
+  clear: both;
+}
+
+/*** WHITE PAPERS ***/
+/* line 287, ../sass/partials/_pages.scss */
+.whitePapersDownloads li {
+  margin-right: 20px;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 65%;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* line 297, ../sass/partials/_pages.scss */
+.whitePapersDownloads a {
+  margin-bottom: 0 !important;
+}
+
+/*** SEARCH ***/
+/* line 308, ../sass/partials/_pages.scss */
+.search-results .has-post-thumbnail .entry-featured, .archive .has-post-thumbnail .entry-featured {
+  border-bottom: 1px solid #ddd;
+  width: 23%;
+  float: left;
+  margin-right: 15px;
+}
+/* line 315, ../sass/partials/_pages.scss */
+.search-results .has-post-thumbnail .entry-content, .archive .has-post-thumbnail .entry-content {
+  margin-left: 185px;
+}
+/* line 322, ../sass/partials/_pages.scss */
+.search-results .post .entry-wrap, .archive .post .entry-wrap {
+  padding-top: 0px !important;
+}
+
+/** ARCHIVE **/
+/* line 335, ../sass/partials/_pages.scss */
+.archive .entry-wrap {
+  margin-top: -20px;
+}
+
+/** BLOG **/
+/*** BLOG - SINGLE ***/
+/* line 348, ../sass/partials/_pages.scss */
+.post .entry-header {
+  margin-bottom: 10px;
+}
+/* line 352, ../sass/partials/_pages.scss */
+.post .entry-wrap {
+  padding-top: 30px;
+}
+
+/* line 360, ../sass/partials/_pages.scss */
+.crp_related ul {
+  margin-left: 0;
+}
+/* line 364, ../sass/partials/_pages.scss */
+.crp_related li {
+  width: 280px;
+  list-style-type: none;
+  float: left;
+  margin-right: 13px;
+}
+/* line 371, ../sass/partials/_pages.scss */
+.crp_related .crp_title {
+  display: block;
+  font-weight: bold;
+  font-size: 1.1em;
+  line-height: 130%;
+}
+/* line 378, ../sass/partials/_pages.scss */
+.crp_related .crp_excerpt {
+  line-height: 130%;
+}
+
+/* REMOVE BORDERS AND BOX SHADOWS */
+/* line 385, ../sass/partials/_pages.scss */
+#top, .x-topbar, .entry-wrap, .x-colophon {
+  border: none !important;
+  box-shadow: none;
+}
+
+/* SIDEBAR STYLES */
+/* line 2, ../sass/partials/_sidebar.scss */
+#techpolisSidebar {
+  background-image: url("https://techpolis.com/wp-content/uploads/2014/03/innerpage_left_img.jpg");
+  color: white;
+  padding: 33px 33px 160px 33px !important;
+}
+/* line 7, ../sass/partials/_sidebar.scss */
+#techpolisSidebar h5, #techpolisSidebar h4 {
+  color: white;
+}
+/* line 11, ../sass/partials/_sidebar.scss */
+#techpolisSidebar a {
+  color: #29c0dd;
+}
+/* line 15, ../sass/partials/_sidebar.scss */
+#techpolisSidebar .downloadText {
+  font-size: 1.4em;
+  line-height: 130%;
+  padding: 30px;
+}
+/* line 21, ../sass/partials/_sidebar.scss */
+#techpolisSidebar ul.rpwe-ul {
+  border: none;
+  box-shadow: none;
+  margin-left: 0;
+}
+/* line 27, ../sass/partials/_sidebar.scss */
+#techpolisSidebar .rpwe-li {
+  border: none;
+  box-shadow: none;
+  margin-bottom: -5px;
+  padding: 0;
+}
+/* line 34, ../sass/partials/_sidebar.scss */
+#techpolisSidebar .rpwe-li:hover {
+  background-color: transparent;
+}
+/* line 38, ../sass/partials/_sidebar.scss */
+#techpolisSidebar .rpwe-li h3 {
+  color: white;
+  font-size: 1.2em;
+}
+/* line 43, ../sass/partials/_sidebar.scss */
+#techpolisSidebar .rpwe-li a {
+  color: white;
+  text-decoration: none;
+  font-family: inherit;
+  border: none;
+}
+/* line 50, ../sass/partials/_sidebar.scss */
+#techpolisSidebar .rpwe-li a:hover {
+  color: #29c0dd;
+}
+
+/* line 57, ../sass/partials/_sidebar.scss */
+#ourServicesSidebar .textwidget div {
+  margin-left: 75px;
+}
+
+/* line 1, ../sass/partials/_footer.scss */
+.x-colophon.top {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 6, ../sass/partials/_footer.scss */
+.newsletter {
+  width: 100%;
+  height: 113px;
+  background-image: url("https://techpolis.com/wp-content/uploads/2014/03/newsletter_bg.gif");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #3188bb;
+}
+
+/* line 15, ../sass/partials/_footer.scss */
+.socialMediaFooter {
+  padding-left: 29%;
+  padding-top: 3%;
+  max-width: 401px;
+  text-align: right;
+  float: left;
+}
+/* line 21, ../sass/partials/_footer.scss */
+.socialMediaFooter p {
+  margin-bottom: 0;
+  color: #85c348;
+  font-size: 1.6em;
+  margin-right: 5px;
+}
+
+/* line 29, ../sass/partials/_footer.scss */
+.newsletterSignUp {
+  float: right;
+  margin-top: 12px;
+  margin-right: 28px;
+}
+/* line 34, ../sass/partials/_footer.scss */
+.newsletterSignUp .newsletterLabel {
+  float: left;
+  width: 165px;
+  margin-top: 22px;
+}
+/* line 39, ../sass/partials/_footer.scss */
+.newsletterSignUp .newsletterLabel p {
+  color: white;
+  font-size: 1.6em;
+  margin: 0;
+  line-height: 100%;
+}
+/* line 46, ../sass/partials/_footer.scss */
+.newsletterSignUp .newsletterLabel a {
+  color: white;
+}
+/* line 51, ../sass/partials/_footer.scss */
+.newsletterSignUp input[type="text"] {
+  width: 60%;
+  border-radius: 0;
+}
+/* line 55, ../sass/partials/_footer.scss */
+.newsletterSignUp input[type="submit"] {
+  margin-top: -10px;
+  margin-left: -4px;
+  height: 35px;
+  border-radius: 0;
+}
+
+/* line 63, ../sass/partials/_footer.scss */
+.footerContact {
+  float: left;
+  height: 88px;
+  width: 725px;
+  margin-top: 4px;
+  background-image: url("https://techpolis.com/wp-content/uploads/2014/03/tech_bg1.gif");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 20px;
+  padding-top: 8px;
+  background-color: #3188bb;
+}
+/* line 75, ../sass/partials/_footer.scss */
+.footerContact .p1 {
+  color: white;
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+/* line 81, ../sass/partials/_footer.scss */
+.footerContact .p2 {
+  color: black;
+  display: block;
+  max-width: 255px;
+  font-size: 0.9em;
+}
+
+/* line 89, ../sass/partials/_footer.scss */
+.footerBottom {
+  width: 100%;
+  height: 73px;
+  background-image: url("https://techpolis.com/wp-content/uploads/2017/04/footer_img4.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  clear: both;
+  text-align: right;
+}
+
+@media only screen and (max-width: 1120px) {
+  /* line 3, ../sass/partials/_mobile.scss */
+  .showOnDesktop {
+    display: none !important;
+  }
+
+  /* line 5, ../sass/partials/_mobile.scss */
+  .showOnMobile {
+    display: inherit;
+  }
+
+  /* line 7, ../sass/partials/_mobile.scss */
+  .x-navbar-inner {
+    display: none;
+  }
+
+  /* line 11, ../sass/partials/_mobile.scss */
+  .searchSocial {
+    display: none;
+  }
+
+  /* line 15, ../sass/partials/_mobile.scss */
+  #ubermenu-main-219-primary {
+    display: none;
+  }
+
+  /* line 17, ../sass/partials/_mobile.scss */
+  #top .x-container.max {
+    margin-top: 0;
+  }
+
+  /* line 22, ../sass/partials/_mobile.scss */
+  .home .tg-grid-area-top2 {
+    background-image: none;
+    padding-left: 0;
+    background-position-y: 0;
+  }
+
+  /* line 28, ../sass/partials/_mobile.scss */
+  .ourServices span.greyBox {
+    float: none;
+  }
+
+  /* line 32, ../sass/partials/_mobile.scss */
+  .ourServicesBox {
+    height: auto;
+    width: 100%;
+    background-image: inherit;
+    background-color: #e9f9fb;
+    padding: 5px 5px 5px 10px !important;
+    margin-bottom: 15px;
+  }
+  /* line 40, ../sass/partials/_mobile.scss */
+  .ourServicesBox img {
+    float: left;
+    margin-bottom: -10px !important;
+    margin-top: 12px !important;
+    margin-left: 0;
+  }
+  /* line 47, ../sass/partials/_mobile.scss */
+  .ourServicesBox h5 {
+    font-size: 1.25em;
+    margin-left: 69px;
+  }
+  /* line 52, ../sass/partials/_mobile.scss */
+  .ourServicesBox div.x-text {
+    margin: 0;
+  }
+  /* line 56, ../sass/partials/_mobile.scss */
+  .ourServicesBox span.servicesText {
+    display: block;
+    margin-top: 24px;
+    clear: both;
+  }
+
+  /* line 69, ../sass/partials/_mobile.scss */
+  .rtavares, .mnewlands {
+    margin-right: 10px;
+  }
+
+  /* line 73, ../sass/partials/_mobile.scss */
+  .ourTeamBox {
+    clear: both;
+  }
+
+  /* line 81, ../sass/partials/_mobile.scss */
+  .whatWeveDoneLeft, .whoWeWorkForLeft, .whatWeveDoneRight, .whoWeWorkForRight, .whatWeveDoneLeftBottom, .whoWeWorkForLeftBottom, .whatWeveDoneRightBottom, .whoWeWorkForRightBottom {
+    border: none;
+    margin-bottom: 20px !important;
+    background-color: #f4f4f4;
+  }
+
+  /* line 87, ../sass/partials/_mobile.scss */
+  .whoWeWorkForLeft, .whoWeWorkForRight, .whoWeWorkForLeftBottom, .whoWeWorkForRightBottom {
+    border: none;
+    margin-bottom: 20px !important;
+    background-color: #f4f4f4;
+  }
+
+  /* line 93, ../sass/partials/_mobile.scss */
+  .whatWeveDoneLeft, .whoWeWorkForLeft, .whatWeveDoneLeftBottom, .whoWeWorkForLeftBottom {
+    margin-right: 10px !important;
+  }
+
+  /* line 97, ../sass/partials/_mobile.scss */
+  .whoWeWorkForLeft, .whoWeWorkForLeftBottom {
+    margin-right: 10px !important;
+  }
+
+  /* line 102, ../sass/partials/_mobile.scss */
+  .whatWeveDoneRight span, .whoWeWorkForRight span, .whatWeveDoneRightBottom span, .whoWeWorkForRightBottom span, .whoWeWorkForRightBottom span {
+    margin-left: 0px;
+  }
+
+  /* line 108, ../sass/partials/_mobile.scss */
+  .whoWeWorkForRight span, .whoWeWorkForRightBottom span, .whoWeWorkForRightBottom span {
+    margin-left: 0px;
+  }
+
+  /* line 116, ../sass/partials/_mobile.scss */
+  .researchDownloads li {
+    max-width: 300px;
+    float: none;
+  }
+
+  /*** BLOG ***/
+  /* line 125, ../sass/partials/_mobile.scss */
+  .search-results .x-header-landmark, .archive .x-header-landmark {
+    margin-bottom: 10px;
+  }
+  /* line 131, ../sass/partials/_mobile.scss */
+  .search-results .has-post-thumbnail .entry-featured, .archive .has-post-thumbnail .entry-featured {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  /* line 139, ../sass/partials/_mobile.scss */
+  .search-results .has-post-thumbnail .entry-content, .archive .has-post-thumbnail .entry-content {
+    margin-left: 0px;
+  }
+
+  /* line 147, ../sass/partials/_mobile.scss */
+  .blog .x-header-landmark {
+    margin-bottom: 10px;
+  }
+
+  /* line 154, ../sass/partials/_mobile.scss */
+  .post .mobileLogo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* line 161, ../sass/partials/_mobile.scss */
+  #techpolisSidebar {
+    padding: 10px !important;
+  }
+
+  /* line 166, ../sass/partials/_mobile.scss */
+  #ourServicesSidebar .textwidget div {
+    margin-left: 0px;
+    clear: both;
+  }
+
+  /* line 174, ../sass/partials/_mobile.scss */
+  .mobileFooter {
+    background-color: #2f89be;
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+  }
+  /* line 181, ../sass/partials/_mobile.scss */
+  .mobileFooter p {
+    color: #85c348;
+    font-size: 1.6em;
+    margin-bottom: 0;
+    line-height: 100%;
+  }
+  /* line 188, ../sass/partials/_mobile.scss */
+  .mobileFooter form {
+    margin-top: 5px;
+  }
+  /* line 192, ../sass/partials/_mobile.scss */
+  .mobileFooter input {
+    border-radius: 0;
+  }
+  /* line 196, ../sass/partials/_mobile.scss */
+  .mobileFooter .p2 {
+    color: white;
+    display: block;
+    font-size: 1.3em;
+    margin-top: 5px;
+  }
+  /* line 203, ../sass/partials/_mobile.scss */
+  .mobileFooter input[type="submit"] {
+    top: -5px;
+    height: 34px;
+  }
+}

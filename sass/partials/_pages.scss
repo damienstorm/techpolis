@@ -1,0 +1,388 @@
+/* MOBILE CONTROLS */
+
+.showOnDesktop {
+	display: inherit;
+}
+
+.showOnMobile {
+	display: none;
+}
+
+/* BEGIN SITE CSS */
+body {
+  background-color: white !important;
+}
+
+*, a:focus {
+    text-shadow: none;
+    box-shadow: none;
+    outline: none !important;
+  }
+
+  .entry-wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+.topQuote {
+  color: black;
+  line-height: 130%;
+  span {
+    color: $darkBlue;
+  }
+}
+
+/** HOME PAGE **/
+.home {
+
+	div.x-raw-content {
+		margin-top: -60px;
+	}
+
+  #jig1-filterButtons {
+    background-image: url($url+"/wp-content/uploads/2017/04/our-ideas-filters-background.png");
+    background-repeat: no-repeat;
+    padding-left: 123px;
+    background-position-y: -2px;
+
+		.jig-filterButton {
+			margin-top: -1px;
+		}
+
+    div[data-filter-slug="blog"],div[data-filter-slug="most-recent"] {
+      display:none;
+    }
+
+  }
+
+}
+
+.pageHeader {
+  color: $darkBlue !important;
+  font-size: 2.2em;
+  margin-top: 0;
+}
+
+.ourIdeasColumn {
+  margin-top: -80px;
+}
+
+.ourServices {
+  font-size: 1.2em;
+  color: black;
+
+  span.greyBox {
+    display: block;
+    float: left;
+    background-color: #999;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    margin-right: 10px;
+    margin-top: 4px;
+  }
+
+  span.blueText {
+    color: $darkBlue;
+  }
+}
+
+.ourServicesBox {
+  background-image: url($url+"/wp-content/uploads/2014/03/service_block_bg.gif");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height:180px;
+
+  img {
+    margin-left: 15px !important;
+    margin-top: 26px !important;
+  }
+
+  div.x-text {
+    margin-left: 84px;
+    padding-right: 10px;
+    color: black;
+    line-height: 130%;
+  }
+
+  h5 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+		font-weight: bold !important;
+		letter-spacing: 0 !important;
+  }
+
+}
+
+
+/** GREEN BULLETS ON UL LIST**/
+.whatWeDo li, .whereWeWork li {
+  list-style-type: none;
+  background-image: url($url+"/wp-content/uploads/2014/03/bullet.gif");
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  background-position-y: 7px;
+}
+
+/*** CLIENTS ***/
+
+.whatWeveDoneLeft {
+  display: inline-block !important;
+  height: 110px !important;
+  border-right:1px solid $green;
+  border-bottom:1px solid $green;
+  margin-right: 0px !important;
+  margin-top: 0 !important;
+  padding: 10px 10px 0 10px !important;
+}
+
+.whoWeWorkForLeft {
+	@extend .whatWeveDoneLeft;
+}
+
+.whatWeveDoneGray {
+  background-color: #f4f4f4;
+}
+
+.whoWeWorkForGray {
+	@extend .whatWeveDoneGray;
+}
+
+.greenBullet {
+  position: relative;
+  top: -17px;
+  left: -13px;
+}
+
+.whatWeveDoneLeftBottom {
+  display: inline-block !important;
+  height: 120px !important;
+  border-right:1px solid $green;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  padding: 10px 10px 0 10px !important;
+}
+
+.whoWeWorkForLeftBottom {
+	@extend .whatWeveDoneLeftBottom;
+}
+
+.whatWeveDoneRight {
+  display: inline-block !important;
+  height: 110px !important;
+  border-bottom: 1px solid $green;
+  margin-top: 0 !important;
+  padding: 10px 10px 0 10px !important;
+
+	span {
+		display: block;
+		margin-left: 18px;
+	}
+}
+
+.whoWeWorkForRight {
+	@extend .whatWeveDoneRight;
+}
+
+.whatWeveDoneRightBottom {
+  display: inline-block !important;
+  height: 120px !important;
+  margin-top: 0 !important;
+  padding: 10px 10px 0 10px !important;
+
+	span {
+		display: block;
+		margin-left: 18px;
+	}
+}
+
+.whoWeWorkForRightBottom {
+	@extend .whatWeveDoneRightBottom;
+}
+
+/*** ABOUT ***/
+
+.aboutUsRow {
+
+  #ourTeam {
+    color: $darkBlue;
+  }
+
+  #ourAdvisors {
+    color: $darkBlue;
+  }
+
+  .name {
+    color: $darkBlue;
+    font-size: 1.4em;
+  }
+
+  .nameTeam {
+    float: left;
+  }
+
+  .pum-trigger {
+
+    img.x-img {
+      margin-top:7px !important;
+      margin-right: 5px !important;
+    }
+
+  }
+
+  .teamPic,.advPic {
+    margin-right: 10px !important;
+  }
+
+}
+
+/** RESEARCH **/
+
+.researchDownloads {
+    margin-left:0;
+
+  li {
+		float: right;
+    width: 265px;
+    margin-right: 20px;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 15px;
+		font-size: 1.2em;
+		font-weight: bold;
+
+    a {
+      margin-bottom: 5px !important;
+
+    }
+  }
+}
+
+
+/*** SERVICES ***/
+
+.whatWeDoBox {
+
+	li {
+		border:2px solid #f6f6f6;
+		padding: 2px !important;
+		height: 240px !important;
+		text-align: center;
+	}
+
+  .h5 {
+  	font-size: 1em;
+		letter-spacing: 1px !important;
+  	margin-top:0;
+  }
+
+  div {
+    clear:both;
+  }
+
+}
+
+/*** WHITE PAPERS ***/
+
+.whitePapersDownloads {
+  li {
+    margin-right: 20px;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 50px;
+		width:65%;
+		font-size: 1.2em;
+		font-weight: bold;
+  }
+
+  a {
+    margin-bottom: 0 !important;
+  }
+
+}
+
+/*** SEARCH ***/
+.search-results {
+
+	.has-post-thumbnail {
+
+		.entry-featured {
+    	border-bottom: 1px solid #ddd;
+    	width: 23%;
+    	float: left;
+			margin-right: 15px;
+		}
+
+		.entry-content {
+			margin-left: 185px;
+		}
+
+	}
+
+	.post {
+		.entry-wrap {
+	    padding-top: 0px !important;
+		}
+	}
+
+}
+
+/** ARCHIVE **/
+
+.archive {
+
+	@extend .search-results;
+
+	.entry-wrap {
+		margin-top: -20px;
+	}
+
+}
+
+/** BLOG **/
+
+// Grid styled on Plugin.
+
+/*** BLOG - SINGLE ***/
+
+.post {
+	.entry-header {
+		margin-bottom: 10px;
+	}
+
+	.entry-wrap {
+  	padding-top: 30px;
+	}
+}
+
+//Related Posts
+.crp_related {
+
+	ul {
+		margin-left: 0;
+	}
+
+	li {
+		width: 280px;
+		list-style-type: none;
+		float: left;
+		margin-right: 13px;
+	}
+
+	.crp_title {
+		display: block;
+		font-weight: bold;
+		font-size: 1.1em;
+		line-height: 130%;
+	}
+
+	.crp_excerpt {
+		line-height: 130%;
+	}
+
+}
+
+/* REMOVE BORDERS AND BOX SHADOWS */
+#top, .x-topbar, .entry-wrap, .x-colophon {
+	border: none !important;
+	box-shadow: none;
+}

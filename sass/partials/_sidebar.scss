@@ -1,0 +1,60 @@
+/* SIDEBAR STYLES */
+#techpolisSidebar {
+  background-image: url($url+"/wp-content/uploads/2014/03/innerpage_left_img.jpg");
+  color: white;
+  padding:33px 33px 160px 33px!important;
+
+  h5,h4 {
+    color:white;
+  }
+
+  a {
+    color: $lightBlue;
+  }
+
+  .downloadText {
+    font-size: 1.4em;
+    line-height: 130%;
+    padding:30px;
+  }
+
+  ul.rpwe-ul {
+    border: none;
+    box-shadow: none;
+    margin-left: 0;
+  }
+
+  .rpwe-li {
+    border: none;
+    box-shadow: none;
+    margin-bottom: -5px;
+    padding:0;
+  }
+
+  .rpwe-li:hover {
+    background-color: transparent;
+  }
+
+  .rpwe-li h3 {
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .rpwe-li a {
+    color: white;
+    text-decoration: none;
+    font-family: inherit;
+    border: none;
+  }
+
+  .rpwe-li a:hover {
+    color: $lightBlue;
+  }
+
+}
+
+#ourServicesSidebar {
+    .textwidget div {
+        margin-left: 75px;
+      }
+}

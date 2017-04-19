@@ -1,0 +1,98 @@
+/* TOPBAR */
+
+.x-topbar {
+	height:34px;
+}
+
+.topbarLeft {
+  height:34px;
+  width:36%;
+  background-color: $lightBlue;
+  float:left;
+}
+
+.topbarRight {
+  height: 34px;
+  width:64%;
+  background-color: $darkBlue;
+  float:right;
+}
+
+/* SEARCH BOX  */
+
+.searchSocial {
+	width: 335px;
+	overflow: hidden;
+	float: right;
+  padding: 3px;
+}
+
+.searchSocial img {
+  width: 9%;
+}
+
+.searchBox {
+	height: 40px;
+	float: left;
+}
+
+#searchform {
+  margin-right: 5px;
+}
+
+#searchform  input[type="text"] {
+  height: 29px;
+}
+
+.x-navbar-inner div.x-container {
+  border-bottom:1px solid $darkGrey;
+  padding-bottom: 5px;
+}
+
+/* UBERMENU & HEADER	*/
+
+.x-brand {
+  display: none;
+}
+
+
+.ubermenu-item {
+  margin-bottom:-5px !important
+}
+
+.x-navbar {
+  border: none;
+  box-shadow: none;
+}
+
+.ubermenu {
+
+	.ubermenu-item {
+		margin-right: 20px !important;
+	}
+
+}
+
+#menu-item-2245 {
+  /*border-bottom:1px solid #999;*/
+}
+
+#menu-item-2634 {
+  border-left:1px solid $darkGrey;
+  border-right:1px solid $darkGrey;
+  /*border-bottom:1px solid #999;*/
+}
+
+#menu-item-2635 {
+  border-right:1px solid $darkGrey;
+  /*border-bottom:1px solid #999;*/
+}
+
+#menu-item-2636 {
+  border-right:1px solid $darkGrey;
+  /*border-bottom:1px solid #999;*/
+}
+
+#menu-item-2228 {
+ /* border-bottom:1px solid #999;*/
+}
